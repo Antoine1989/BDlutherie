@@ -209,13 +209,18 @@
         text-align: center
     }
 }
+/*Survol des liens dans navbar*/
 .navbar-link:hover {
+    cursor: pointer !important;
+	color : #BB7827 !important;
+}
+.logobd-link:hover {
     cursor: pointer !important;
 	color : #BB7827 !important;
 }
 /* BODY */
 .col-xl {
-    background-color: #b9bbbd;
+    background-color: #fcfcfc;
 }
 .row{
     text-align: justify;
@@ -223,13 +228,13 @@
 body {
     overflow-x: hidden;
     font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #b9bbbd;
+    background-color: #fcfcfc;
     font-weight: 400;
     line-height: 1.75;
     color: #333
 }
 .container{
-    background-color: #b9bbbd;
+    background-color: #fcfcfc;
 }
 .secondary-font {
     font-family: 'Crete Round', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -275,13 +280,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::-moz-selection {
-    color: #fff;
+    color: #fcfcfc;
     text-shadow: none;
     background: #333
 }
 
 ::selection {
-    color: #fff;
+    color: #fcfcfc;
     text-shadow: none;
     background: #333
 }
@@ -319,7 +324,7 @@ body {
 }
 
 .white {
-    color: #fff
+    color: #fcfcfc
 }
 
 .btn {
@@ -623,3 +628,8 @@ footer.white-wrapper .social-links li a {
     color: #ddd
 }
 
+/*Style pour logo réseaux sociaux*/
+.reseaux-link:hover {
+    cursor: pointer !important;
+	color : #BB7827 !important;
+}

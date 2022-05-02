@@ -46,7 +46,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <!-- navbar-brand justify-content-center -->
-                <a class="navbar-brand"  href="/"><img src="/assets/img/logo/logo_Lutherie_Blanc.png"  alt= "logo"width="80" height="80"/></a>
+                <a class="navbar-brand logobd-link"  href="/"><img src="/assets/img/logo/logo_Lutherie_Blanc.png"  alt= "logo"width="80" height="80"/></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -73,12 +73,12 @@
         </nav>
         <div class="container text-white my-5">
             <div class="row  justify-content-center">
-                <div class="col-xl-6  py-5">
+                <div class="col-xl-6  my-5">
                     <!-- img-fluid permet d'avoir une image responsive -->
-                    <img  src="\assets\img\Luthier_Benjamin Dietlin.jpg"width="600" height="900">
+                    <img  src="\assets\img\Luthier_Benjamin Dietlin.jpg" class="img-fluid border border-white rounded shadow-sm bg-white my-5 py-2 px-2">
                 </div>
                 
-                <div class="col-xl-6 bg-link py-5 text-dark">
+                <div class="col-xl-6 bg-white rounded my-5 text-dark">
                     <h2 class="mx-auto py-4 w-75">Benjamin Dietlin, luthier</h2>
                     <p class="mx-auto py-1  w-75 ">De formation d'ingénieur en physique du bâtiment (thermique et acoustique), ma passion a toujours été la musique et la lutherie. Avec une première guitare fabriquée à l'âge de 16 ans, je continue avec une dizaine d'instruments (guitares acoustiques, électrique, cigar box) avant de me perfectionner via une formation chez JRT lutherie à trentemoult en 2021.
                     L'atelier prend forme à Divatte sur Loire dans la foulée et je m'installe officiellement en Juillet 2021.</p>
@@ -92,12 +92,15 @@
                 <div class="section-inner">
                     <div class="container bg-transparent">
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="widget about-us-widget">
+                            <!-- <div class="col-md-4"> -->
+                                <!-- <div class="widget about-us-widget">
                                     <h4 class="widget-title"><strong>Global</strong> Coverage</h4>
-                                    <p>Professionally monetize team building materials for 24/7 results. Holisticly transition corporate platforms vis-a-vis cutting-edge experiences. Dynamically strategize ubiquitous applications for premier initiatives. Interactively seize resource sucking niche markets.</p>
-                                </div>
-                            </div>
+                                    <p>Professionally monetize team building materials for 24/7 results. Holisticly
+                                        transition corporate platforms vis-a-vis cutting-edge experiences. Dynamically
+                                        strategize ubiquitous applications for premier initiatives. Interactively seize
+                                        resource sucking niche markets.</p>
+                                </div> -->
+                            <!-- </div> -->
                             <div class="col-md-4">
                                 <div class="card bg-transparent">
                                     <h4 class="card-body">Coordonnées</h4>
@@ -113,7 +116,10 @@
                                             </li>
                                             <div class="meta-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> 3 impasse des longues planches, 44 450 Divatte sur Loire</div>
                                         </ul>
-                                    </div>
+                                        <!-- <a href="#" class="tag-link btn btn-theme btn-white btn-xs smoothie" title="3 topics">Local</a>
+                                            <a href="#" class="tag-link btn btn-theme btn-white btn-xs smoothie" title="3 topics">Business</a>
+                                            <a href="#" class="tag-link btn btn-theme btn-white btn-xs smoothie" title="3 topics">Media</a> -->
+                                   
                                 </div>
                             </div>
                         </div>
@@ -124,32 +130,41 @@
             <footer class="white-wrapper">
                 <div class="container bg-transparent">
                     <div class="row">
-                        <div class="col-md-6 text-left match-height">
-                            <ul class="list-inline social-links wow">
-                             
-                                <li>
-                                    <a href="https://instagram.com/bd_lutherie/"><i class="fa fa-instagram"></i></a>
-                                </li>
-                             
-                                <li>
-                                    <a href="https://m.facebook.com/bdlutherie/"><i class="fa fa-facebook"></i></a>
-                                </li>
-                             
-                                <li>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+                        
+                        <div class="col-md-4 text-left match-height"> 
+                           <ul class="list-inline social-links wow">
+                            
+                               <li>
+                                   <a href="https://instagram.com/bd_lutherie/"><i class="fa fa-instagram reseaux-link"></i></a>
+                               </li>
+                           </ul>
+                           </div> 
+                           <div class="col-md-4 text-left match-height"> 
+                               <ul class="list-inline social-links wow">
+                               <li>
+                                   <a href="https://m.facebook.com/bdlutherie/"><i class="fa-brands fa-facebook-square reseaux-link"></i></a>
+                               </li>
+                           </ul>
+                           </div> 
+                           <div class="col-md-4 text-left match-height"> 
+                               <ul class="list-inline social-links wow">
+                               <li>
+                                   <a href="#"><i class="fa fa-linkedin reseaux-link"></i></a>
+                               </li>
+                           </ul>
+                       </div> 
+                        </div> 
 
                         <div class="col-md-6 text-right match-height">
                             <div class="vertical-center">
-                                <span class="copyright">Copyright 2022. Designed by IPIC</span>
+                                <span class="copyright text-right ">Copyright 2022. Designed by IPIC</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </footer>
         </div>
+
     </div>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

@@ -140,7 +140,8 @@ a.active {
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg, rgba(7, 45, 72, 0.8), rgba(195, 195, 195, 0.8))
+    background:#fcfcfc
+    /* background: linear-gradient(45deg, rgba(7, 45, 72, 0.8), rgba(195, 195, 195, 0.8)) */
 }
 
 .content {
