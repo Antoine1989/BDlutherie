@@ -225,6 +225,11 @@
 .row{
     text-align: justify;
 }
+.h2{
+    text-align: center !important;
+    color : #BB7827;
+    text-transform: uppercase !important;
+}
 body {
     overflow-x: hidden;
     font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
