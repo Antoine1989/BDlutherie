@@ -638,3 +638,18 @@ footer.white-wrapper .social-links li a {
     cursor: pointer !important;
 	color : #BB7827 !important;
 }
+.text-dore{
+    color : #BB7827 !important;
+}
+.mediator{ 
+
+    cursor: url("../img/ico/cursor_mediator_benj2.png"),auto !important; 
+
+ } 
+ /*
+  li{
+    transition: background-color 0.5s;
+}
+li:hover{
+    background: aqua; 
+}*/
