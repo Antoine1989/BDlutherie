@@ -225,7 +225,7 @@
 .row{
     text-align: justify;
 }
-.h2{
+.h2,h1{
     text-align: center !important;
     color : #BB7827;
     text-transform: uppercase !important;
@@ -617,6 +617,7 @@ footer.white-wrapper .social-links li a {
 .footer-image-bg *, .footer-image-bg a {
     color: #222
 }
+
 /* IMAGE BENJ FOOTER */
 .dark-footer-image-bg {
     background-image: url(../img/dark-footer-bg.jpeg);
