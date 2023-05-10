@@ -654,3 +654,7 @@ footer.white-wrapper .social-links li a {
 li:hover{
     background: aqua; 
 }*/
+.border-transparent{
+    border-color: transparent !important;
+    
+}
