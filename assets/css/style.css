@@ -246,19 +246,11 @@
    
     
 }
-.logobd-link{
-    background-image: url('../img/logo/logo_Lutherie_Blanc.png');
-    background-size:cover;
-    width:80px;
-    height:80px;
-   
-}
+
 
 .logobd-link:hover {
     cursor: pointer !important;
-    background-image : url('../img/logo/logo_Lutherie_Dore.png') !important;
-	width:80px;
-    height:80px;
+    color : #BB7827 !important
 }
 /* BODY */
 .col-xl {
